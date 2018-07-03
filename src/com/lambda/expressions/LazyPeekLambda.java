@@ -35,12 +35,12 @@ public class LazyPeekLambda {
 		System.out.println("Results array size = " + results.size()) ;*/
 		
 		// ForEach is similar to peek but it is not an intermediary 
-		// function. Hence it is not lazy operated. It does not return 
-		// anything.
+		// function. It is a final function. Hence it is not lazy 
+		// operated. It does not return anything.
 		stream
-		.peek(s -> results.add(s))
-		.filter(p1.or(p2))
-		.forEach(System.out::println) ;
+				.peek(s -> results.add(s))
+				.filter(p1.or(p2))
+				.forEach(System.out::println) ;
 
 		System.out.println("Results array size = " + results.size()) ;
 		
