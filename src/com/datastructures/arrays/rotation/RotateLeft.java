@@ -7,7 +7,7 @@ import com.util.PrintUtil;
  * Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
  * 
  * This program rotates all the array elements by d (a positive integer) places.
- * The best time complexity of this program is O(n) and worst time complexity is O(n*d)
+ * The best time complexity of this program is O(n) and worst time complexity is O(n*d).
  * The best and worst space complexity of this program is O(1)
  *
  * @author rushikesh_chaubal.
